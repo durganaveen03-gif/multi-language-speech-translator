@@ -1,0 +1,154 @@
+/* ===========================
+   Google Font
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#74ebd5,#9face6);
+    min-height:100vh;
+    transition:.4s;
+}
+
+/* Navbar */
+
+.navbar{
+    border-radius:0 0 20px 20px;
+}
+
+/* Card */
+
+.card{
+    border:none;
+    border-radius:20px;
+    background:white;
+    transition:.4s;
+}
+
+/* Labels */
+
+label{
+    font-size:17px;
+    margin-bottom:8px;
+}
+
+/* Text Area */
+
+textarea{
+    resize:none;
+    border-radius:12px !important;
+    font-size:17px !important;
+}
+
+textarea:focus{
+    border-color:#0d6efd !important;
+    box-shadow:0 0 10px rgba(13,110,253,.25) !important;
+}
+
+/* Select */
+
+select{
+    border-radius:12px !important;
+}
+
+/* Buttons */
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+#record{
+    width:70px;
+    height:70px;
+}
+
+#translate{
+    min-width:150px;
+}
+
+#listen{
+    min-width:130px;
+}
+
+/* History */
+
+#historyList{
+    max-height:300px;
+    overflow-y:auto;
+}
+
+.list-group-item{
+    border-radius:10px !important;
+    margin-bottom:8px;
+}
+
+/* Footer */
+
+footer{
+    border-radius:20px 20px 0 0;
+}
+
+/* Dark Mode */
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode .card{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark-mode textarea{
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #555;
+}
+
+.dark-mode select{
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #555;
+}
+
+.dark-mode .list-group-item{
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #444;
+}
+
+.dark-mode footer{
+    background:#000 !important;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .card{
+        padding:20px !important;
+    }
+
+    #record,
+    #translate,
+    #listen{
+        width:100%;
+        margin-top:10px;
+    }
+
+    .btn{
+        margin-bottom:10px;
+    }
+}
