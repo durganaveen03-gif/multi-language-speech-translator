@@ -10,3 +10,4 @@ Pillow
 SQLAlchemy
 python-dotenv
 gunicorn
+groq
