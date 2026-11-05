@@ -9,3 +9,4 @@ pytesseract
 Pillow
 SQLAlchemy
 python-dotenv
+gunicorn
