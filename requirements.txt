@@ -10,4 +10,4 @@ Pillow
 SQLAlchemy
 python-dotenv
 gunicorn
-groq
+groq==0.37.1
